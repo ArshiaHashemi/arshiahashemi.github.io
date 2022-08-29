@@ -73,6 +73,29 @@ input, select, textarea {
 }
 
 /* Basic */
+a:link {
+  color: rgb(136, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(136, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(136, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
 
         .br {
             display: block;
