@@ -92,11 +92,14 @@ a:hover {
 }
 
 a:active {
-  color: green;
+  color: rgb(136, 0, 0);
   background-color: transparent;
   text-decoration: none;
 }
 
+div {
+    overflow:hidden;
+}
         .br {
             display: block;
             margin-bottom: 0em;
@@ -1663,6 +1666,14 @@ a:active {
 		display: inline-block;
 		position: relative;
 	}
+		.image.article {
+    width:100px;
+    height:67px;
+    float:left;
+}
+div {
+    overflow:hidden;
+}
 
 		.image img {
 			display: block;
