@@ -62,7 +62,7 @@ mark {
 
 input::-moz-focus-inner {
 	border: 0;
-	padding: 0;
+	padding: -1cm;
 }
 
 input, select, textarea {
@@ -73,6 +73,20 @@ input, select, textarea {
 }
 
 /* Basic */
+
+        .br {
+            display: block;
+            margin-bottom: 0em;
+        }
+	.brmedium {
+            display: block;
+            margin-bottom: 10em;
+        }
+          
+        .brlarge {
+            display: block;
+            margin-bottom: 2em;
+        }
 
 	html {
 		box-sizing: border-box;
@@ -1987,7 +2001,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		background-image:;
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -2004,8 +2018,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color:white;
+			text-shadow: 0px 0px 0px;
 		}
 
 		.wrapper.style4 {
