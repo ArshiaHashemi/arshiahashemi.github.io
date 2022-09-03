@@ -13,17 +13,22 @@ pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
+form, label, legend, table, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
+	padding-right: 20px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+caption{
+	text-align: center;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -159,10 +164,6 @@ input, select, textarea {
 		color: inherit;
 	}
 
-	h2, h3, h4, h5, h6 {
-		font-weight: 700;
-	}
-
 	h1 {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
@@ -176,11 +177,13 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -0.015em;
+
 	}
 
 	h3 {
 		font-size: 1.5em;
 		letter-spacing: -0.015em;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -1913,12 +1916,12 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		text-align: center;
+		text-align: left;
 		padding: 2em;
 	}
 
 		.box.style1 {
-			padding: 3em 2em 3.5em 2em;
+			padding: 2em 2em 2em 2em;
 		}
 
 			.box.style1 h3 {
@@ -1983,24 +1986,6 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 6em;
 			}
-
-/* SVG Icons */
-
-	.svg-icon {
-		width: 1em;
-		height: 1em;
-	}
-	
-	.svg-icon path,
-	.svg-icon polygon,
-	.svg-icon rect {
-		fill: #4691f6;
-	}
-	
-	.svg-icon circle {
-		stroke: #4691f6;
-		stroke-width: 1;
-	}
 
 /* Wrappers */
 
@@ -2164,6 +2149,7 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
+
 	}
 
 		#copyright li {
